@@ -6,4 +6,4 @@ Y-charger is project aiming to achieve wireless power transfer to a more distanc
 Team:
 ⦁	Bhavya Krishna [https://github.com/BhavyaKrishna]
 ⦁	Neeraj Kumar [https://github.com/KrispyCamel4u]
-⦁	D C Vivek
+⦁	D C Vivek []
