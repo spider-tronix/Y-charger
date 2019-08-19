@@ -5,14 +5,14 @@
 	2. true sine wave
 
 ### True sine wave:
-	- bridge invertor configuration
-	- unipolar sine PWM 
+	-  bridge invertor configuration
+	-  unipolar sine PWM 
 		1. use of 5 mosfets only one high frequency
 		2. one having PWM signel
 		3. other in bridge configuration with 50hz sqaure wave
 		4. switching loss is minimised because only one mosfets is switching very fast other at lower frequency
 	
-	- bipolar
+	-  bipolar
 		1. use of 4 mosfets all high frequency
 		2. all in bridge configuration 
 		3. switching loss is high
