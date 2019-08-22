@@ -23,10 +23,14 @@
 		techique 2:
 			give the SPWM signal to only upper two mosfets others two at sine wave frequency
 			heating and loss distribution is unequal
-		
+
+- Square wave invertors have more efficiency than pure sine wave invertors.	
+	efficiency in case of wireless power system will be similer both the invertors but the square wave invertor can give more output power.
+	for reducing the switching loss zero voltage switching has to be employed for pure sine wave invertor.
 	
-
-
+### key feature
+	- need to have maximum power point tracking mechanism
+	- ability to prevent the inrush current 
 
 ### Some useful components:
 	Gate driver IC:
