@@ -1,0 +1,38 @@
+1. Invertor
+    1. need to decide wich type of invertor need to be designed(PQR/SQR/ModSQR)
+        In case of PQR:
+            1. topology
+    2. then simulation
+    3. fabrication on perfboard
+
+2. Transmitter side Controller
+    Tasks of Controller:
+        invertor:
+            1. inrush current prevention (not applicable for this particular application)
+            2. current and voltage safty limits
+            3. voltage regulation
+            4. maximum power tracking ( resonance frequency tracking )
+            5. combinning Controller with invertor 
+        
+        for communication:
+            1. QI communication
+            2. foriegn object and target detection
+            
+3. Transmitter and Receiver circuit:
+    1. Theoratical model explaning the variation of different parameters(ex. efficiency, power transfer) with the circuiutal parameters.
+    2. deciding optimum frequency, and circuital parameters, size shape and inductance of the coil  
+    3. simulation
+    4. making transmitter and reciever coil and fabrication
+
+    then combining it with the invertor circuit
+
+4. rectifier and buck-boost convertor intergration
+
+5. Receiver side Controller
+    1. current and voltage monitering circuit
+    2. communication QI protocol
+
+**yet to decide the priority for the given Tasks
+
+priority order of the tasks:
+
