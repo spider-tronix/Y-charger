@@ -1,10 +1,10 @@
 ## Points to be considered while designing the invertor circuit
 
 ## General notations
-1. m<sub>a</sub> = Vcontrol/Vtri
-2. m<sub>f</sub> = Fs/Fi, where Fs is switching frequency
+1. m <sub>a</sub> = Vcontrol/Vtri
+2. m <sub>f</sub> = Fs/Fi, where Fs is switching frequency
 
-## Considering that Fi is high for our system,  m<sub>f</sub> will be kept small to reduce losses.
+## Considering that Fi is high for our system,  m <sub>f</sub> will be kept small to reduce losses.
 
 ### 2 types possible
 	1. modified sine wave
@@ -19,10 +19,10 @@
 		4. switching loss is minimised because only one mosfets is switching very fast other at lower frequency
 
 	-  bipolar
-   	1. Amplitude of fundamental harmonic V<sub>a0</sub>=m<sub>a</sub> * Vd/2
-		2. Harmonics  frequency fh = (jm<sub>f</sub> + or - k)* fi
-		3. m<sub>f</sub> has to be odd to eliminate even harmonics.
-		4. since m<sub>f</sub> is small, both the signals have to be synchronised which is the case cause we will be using MCU to generate the PWM signals 
+   	        1 Amplitude of fundamental harmonic V <sub>a0</sub> =m <sub>a</sub> * Vd/2
+		2. Harmonics  frequency fh = (j*m <sub>f</sub> + or - k)* fi
+		3. m <sub>f</sub> has to be odd to eliminate even harmonics.
+		4. since m <sub>f</sub> is small, both the signals have to be synchronised which is the case cause we will be using MCU to generate the PWM signals 
 		5. use of 4 mosfets all in high frequency
 		6. all in bridge configuration
 		7. switching loss is high
