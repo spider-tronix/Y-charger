@@ -1,1 +1,0 @@
-1. Rectifier can act as circuit isolator. The resonant frequancy will not be affected by the circuit after the rectifier.
