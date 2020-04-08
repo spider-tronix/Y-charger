@@ -1,5 +1,5 @@
-1. Invertor
-    1. need to decide wich type of invertor need to be designed(PQR/SQR/ModSQR)
+1. Inverter
+    1. need to decide wich type of inverter need to be designed(PQR/SQR/ModSQR)
         In case of PQR:
             1. topology
     2. then simulation
@@ -7,29 +7,29 @@
 
 2. Transmitter side Controller
     Tasks of Controller:
-        invertor:
+        inverter:
             1. inrush current prevention (not applicable for this particular application)
-            2. current and voltage safty limits
+            2. current and voltage safety limits
             3. voltage regulation
             4. maximum power tracking ( resonance frequency tracking )
-            5. combinning Controller with invertor 
+            5. combining Controller with inverter 
         
         for communication:
             1. QI communication
-            2. foriegn object and target detection
+            2. foreign object and target detection
             
 3. Transmitter and Receiver circuit:
-    1. Theoratical model explaning the variation of different parameters(ex. efficiency, power transfer) with the circuiutal parameters.
-    2. deciding optimum frequency, and circuital parameters, size shape and inductance of the coil  
+    1. Theoretical model explaning the variation of different parameters(ex. efficiency, power transfer) with the circuital parameters.
+    2. deciding optimum frequency, and circuital parameters, size, shape and inductance of the coil  
     3. simulation
-    4. making transmitter and reciever coil and fabrication
+    4. making transmitter and receiver coil and fabrication
 
-    then combining it with the invertor circuit
+    then combining it with the inverter circuit
 
-4. rectifier and buck-boost convertor intergration
+4. rectifier and buck-boost converter intergration
 
 5. Receiver side Controller
-    1. current and voltage monitering circuit
+    1. current and voltage monitoring circuit
     2. communication QI protocol
 
 **yet to decide the priority for the given Tasks
