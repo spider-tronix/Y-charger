@@ -1,4 +1,4 @@
-## Points to be considered while designing the invertor circuit
+## Points to be considered while designing the inverter circuit
 
 ## General notations
 1. m <sub>a</sub> = Vcontrol/Vtri
@@ -11,7 +11,7 @@
 	2. true sine wave
 
 ### True sine wave:
-	-  bridge invertor configuration
+	-  bridge inverter configuration
 	-  unipolar sine PWM
 		1. use of 5 mosfets only one high frequency
 		2. one having PWM signal
@@ -34,9 +34,9 @@
 			give the SPWM signal to only upper two mosfets others two at sine wave frequency
 			heating and loss distribution is unequal
 
-- Square wave invertors have more efficiency than pure sine wave invertors on account of poor switching losses
-- efficiency in case of wireless power system will be similar both the invertors but the square wave invertor can give more output power.
-- for reducing the switching loss zero voltage switching has to be employed for pure sine wave invertor.
+- Square wave inverters have more efficiency than pure sine wave inverters on account of poor switching losses
+- efficiency in case of wireless power system will be similar both the inverters but the square wave inverter can give more output power.
+- for reducing the switching loss zero voltage switching has to be employed for pure sine wave inverter.
 
 ### key feature
 	- need to have maximum power point tracking mechanism
